@@ -1,79 +1,47 @@
-html {
-background-image: url("../images/bats.gif");
+*{
+    /*setting the font family to sans serif for the document*/
+    font-family: sans-serif;
 }
-body {
-font-family: Verdana, Arial, Helvetica, sans-serif;
-max-width: 960px;
-width: 95%;                        /* fixed width was 800 */
-background-color: white;
-margin: 0 auto;
-padding: 0;
-border: 3px solid black;
-box-shadow: 0 9px 18px 9px;
+body{
+    padding-top:10px;
 }
-h1, h2, h3, p {
-margin: 0;
-padding: 0;
+/*styling for the image*/
+img{
+    float:left;
+    height:100px;
+    width:100px;
+    padding-right:10px;
 }
-a {
-	font-weight: bold;
-	color: orange;
+
+.first{
+    /*making the first heading orange and style to italic*/
+    color:orange;
+    font-style: italic;
+    /*using text shadow property for applying shadow*/
+    text-shadow:0px 2px 2px grey;
+    font-size:48px;
 }
-a:link, a:visited { 
-    color: orange; 
+/*using font-size property for getting bigger first letter*/
+.second{
+    font-size:48px ;
 }
-a:hover, a:focus { 
+li{
+    padding:3px;
+}
+/*making the link orange when visited*/
+a:visited{
+    color: orange;
+}
+/*making the link green when hovered*/
+a:hover{
+    color:green;
+}
+/*making the link green when focussed*/
+a:focus{
     color: green;
 }
-
-/* Header */
-header {
-    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
-    padding: 15px; 
-    border-bottom: 2px solid black; 
-} 
-header img {
-float: left;
-padding-right: 15px;
-}    
-header h2 {
-font-size: 230%;
-}
-header h3 {
-font-size: 125%;
-}
-
-/* Main */
-main {
-	padding: 20px 25px 25px 25px;
-}
-main h1 { 
-	font-size: 140%;
-	margin-bottom: .5em;
-}
-
-main h2 {
-	font-size: 125%;
-	margin: .8em 0 .5em 0;
-}
-main h3 {
-	font-size: 110%;
-	margin-bottom: .5em;
-}
-main p {
-	margin-bottom: .5em;
-}
-main ul {
-	margin-top: 0;
-}
-
-/* Footer */
-footer { 
-	border-top: 2px solid black;
-	padding: 15px;
-    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
-} 
-footer p {
-	font-size: 90%;
-	text-align: center;
+/*using text-align for getting the footer text in center*/
+footer{
+    text-align: center;
+    padding-top:10px;
 }
