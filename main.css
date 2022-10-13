@@ -28,7 +28,7 @@ img{
 li{
     padding:3px;
 }
-/*making the link orange when visited*/
+/*making the link yellow when visited*/
 a:visited{
     color: yellow;
 }
