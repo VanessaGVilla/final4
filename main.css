@@ -30,13 +30,13 @@ li{
 }
 /*making the link orange when visited*/
 a:visited{
-    color: orange;
+    color: yellow;
 }
 /*making the link green when hovered*/
 a:hover{
     color:green;
 }
-/*making the link green when focussed*/
+/*making the link green when focused*/
 a:focus{
     color: green;
 }
